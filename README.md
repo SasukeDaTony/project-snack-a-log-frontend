@@ -1,109 +1,70 @@
-# Full Stack Application Pair Project
+# Getting Started with Create React App
 
-## Snack-a-log
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Create an app that allows users to log their favorite snacks. Add functionality that will enable users to see whether or not their snack is healthy based on a simple algorithm.
+## Available Scripts
 
-For this project, there are 40 features or functionality to build. You are required to successfully build a minimum of 28 features to pass this project.
+In the project directory, you can run:
 
-## Overview
+### `npm start`
 
-- Using the [`project-snack-a-log-frontend`](https://github.com/9-2-pursuit/project-snack-a-log-frontend) and [`project-snack-a-log-backend`](https://github.com/9-2-pursuit/project-snack-a-log-backend) repos, create a full-stack web application by building the two applications and having them interact.
-- Use Express to build a complete CRUD back-end application that adheres to RESTful routes.
-- Deploy the applications separately so that anyone can see them online and the two online applications can interact.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## User Stories, Acceptance Criteria, and Code Quality Rubric
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### Back-end setup
+### `npm test`
 
-It would be best if you began with the back-end setup and then moved on to setting up the front-end.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Front-end
+### `npm run build`
 
-1. Index page
-1. It Can load the index page and has navigation to the New page
-1. Has a list of snack cards that are coming from the back-end seed data
-1. Has a link to each snack's show page
-1. Has a solid heart, if the snack is healthy
-1. Has a heart outline; if the snack is unhealthy
-1. The CSS has a coherent design across the different views of the app
-1. Show page
-1. Shows header text
-1. Can navigate to the New page
-1. Snack has correct information displayed
-1. Contains action/navigation buttons
-1. New page
-1. Shows the header text
-1. Has a form with the correct labels and fields
-1. Can create a snack and then redirects back to the index page
-1. Edit page
-1. Has a form with the correct labels and fields
-1. Data is pre-filled into the form
-1. Can update a snack and then redirects back to the index page
-1. Delete button
-1. Can delete a snack using the app
-1. Front-end hosted and accessible online
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-> **Total**: 23 points
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-> **Note**: There are no front-end tests; your hosted application's functionality and code quality will be used to evaluate you.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Additional points:
+### `npm run eject`
 
-- Completed front-end (see [project-snack-a-log-back-end](https://github.com/9-2-pursuit/project-snack-a-log-backend) for more details)
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-> **Grand total**: 45 points
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## Getting Started
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-1. Navigate to your directory called `project-snack-a-log`.
-1. `cd` into the directory.
-1. Fork and clone the [`project-snack-a-log-front-end`](https://github.com/9-2-pursuit/project-snack-a-log-frontend) repo into your `project-snack-a-log` directory.
-1. Change the name of your `project-snack-a-log-front-end` directory to `front-end`.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-> **Note**: Your `back-end` directory should be adjacent to your `front-end` directory. Both should be their own git repositories. The top-level `project-snack-a-log` folder should **NOT** be a git repository.
+## Learn More
 
-### Front-end setup
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-It would be best if you opened a new terminal tab dedicated to running and developing your front-end.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-- `cd front-end`
-- `touch .env`
+### Code Splitting
 
-**.env**
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-```
-REACT_APP_API_URL=http://localhost:3333
-```
+### Analyzing the Bundle Size
 
-- `npm install` - install npm packages listed in `package.json`.
-- `npm start` - make sure your React app can start
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-## Screenshots
+### Making a Progressive Web App
 
-These lightly styled views are to help clarify the project requirements. It would be best if you spent some time styling your app, but you are not required to mimic the style shown below.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Index page
+### Advanced Configuration
 
-![Index page](./assets/index-page.png)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Show page
+### Deployment
 
-![Show page](./assets/show-page.png)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### New page
+### `npm run build` fails to minify
 
-![New page](./assets/new-page.png)
-
-### Edit page
-
-![Edit Page](./assets/edit-page.png)
-
-## Resources
-
-Use the resources below to deploy your application.
-
-### Front-end Deployment
-
-1. [Netlify Deployment Instructions](https://github.com/9-2-pursuit/guide-deployment/tree/main/netlify-create-react-app)
-1. [Netlify Deployment Video](https://drive.google.com/file/d/1am3ljqxJTyvPQ5hzlsaU7o_bf6-lA4UK/view?usp=sharing)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
