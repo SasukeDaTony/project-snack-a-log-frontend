@@ -6,7 +6,9 @@ import { useNavigate } from "react-router-dom"
 
 const API=process.env.REACT_APP_API_URL
 export default function NewPage(){
-const [form,setForm]=useState({name:"",fiber:"",protein:"",sugar:"",image:""})
+
+
+const [form,setForm]=useState({name:"",fiber:"",protein:"", added_sugar:"",image:""})
 const navigate=useNavigate()
 
 function handleChange(e){
@@ -35,7 +37,7 @@ return (<div className="new-grid">
         <input type="number" value={form.protein} id="protein" className="inputs" required  onChange={(e)=>handleChange(e)} />  
 
         <label for="sugar">Sugar:</label>
-        <input type="number" value={form.sugar} id="sugar"  className="inputs" onChange={(e)=>handleChange(e)}  />  
+        <input type="number" value={form.added_sugar} id="added_sugar"  className="inputs" onChange={(e)=>handleChange(e)}  />  
 
         <label for="image">Image:</label>
         <input type="text" value={form.image} id="image"  className="inputs" required   onChange={(e)=>handleChange(e)} />   
