@@ -15,7 +15,7 @@ function handleChange(e){
 
 function handleSubmit(e){
     e.preventDefault()
-    axios.post(`${API}/snacks`,form).then(()=>navigate("/"))
+    axios.post(`${API}snacks`,form).then(()=>navigate("/"))
 }
 
 return (<div className="new-grid">

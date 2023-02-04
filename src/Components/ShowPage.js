@@ -16,7 +16,7 @@ export default function ShowPage(){
     },[id])
 
     function handleDelete(id){
-        axios.delete(`${API}/snacks/${id}`).then(()=>{navigate("/")}).catch((e)=>console.log(e))
+        axios.delete(`${API}snacks/${id}`).then(()=>{navigate("/")}).catch((e)=>console.log(e))
     }
 
 
