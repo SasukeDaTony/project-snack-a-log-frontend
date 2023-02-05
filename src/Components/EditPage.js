@@ -29,7 +29,7 @@ export default function EditPage(){
 
         
         <div className="edit-grid">
-            <h1 className="column-2 center">Edit Snack</h1>
+            <h1 className="column-2 center white">Edit Snack</h1>
 
             <div className="column-2 form-data">
 
