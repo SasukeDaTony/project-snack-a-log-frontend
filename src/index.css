@@ -24,10 +24,11 @@ code {
 }
 
 .img-size {
-  width: 200px;
-  height: 200px;
+  width: 100%;
+  height: auto;
   margin-top: 15px;
 }
+
 nav {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
@@ -82,6 +83,7 @@ nav {
   border-radius: 5px;
   background-color: tan;
   opacity: 85%;
+  padding: 10px 10px;
 }
 .show-page {
   text-align: center;
@@ -171,4 +173,18 @@ nav {
 
 .neg-mtop {
   margin-top: -10px;
+}
+
+.about {
+  text-align: center;
+ 
+}
+
+.tony,
+.jean,
+.zay {
+  margin-left: 25%;
+  background-color: bisque;
+  opacity: 75%;
+  width: 50%;
 }
