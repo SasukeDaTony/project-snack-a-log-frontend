@@ -71,7 +71,7 @@ export default function EditPage() {
             <input
               type="number"
               value={form.added_sugar}
-              id="sugar"
+              id="added_sugar"
               required
               onChange={(e) => handleChange(e)}
             />
