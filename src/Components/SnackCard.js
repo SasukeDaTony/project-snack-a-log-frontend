@@ -6,7 +6,7 @@ export default function SnackCard({ snack }) {
   const navigate = useNavigate();
   return (
     <div className="card" onClick={() => navigate(`/snacks/${snack.id}`)}>
-      <img src={snack.image} alt="snack image" className="img-size" />
+      <img src={snack.image} alt="snack" className="img-size" />
       <h3>{snack.name}</h3>
 
       {snack.is_healthy === true ? (
