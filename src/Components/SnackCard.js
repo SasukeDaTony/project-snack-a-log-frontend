@@ -9,7 +9,7 @@ export default function SnackCard({snack}){
             <img src={snack.image} alt="" className="img-size"/>
             <h3>{snack.name}</h3>
 
-            {snack.is_healthy===true?( <div className="red"><FavoriteIcon/>  </div>):(<div><FavoriteBorderIcon/>  </div>) }
+            {snack.is_healthy===true?( <div className="red"><FavoriteIcon/>  </div>):(<div className="white"><FavoriteBorderIcon/>  </div>) }
             
         </div>
     )

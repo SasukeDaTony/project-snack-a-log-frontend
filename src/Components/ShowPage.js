@@ -27,12 +27,17 @@ export default function ShowPage(){
     {snack? (
 
         <div className="show-page m-top">
-             <img src={snack.image} alt=""/>
-            <h3>{snack.name}</h3>
+
+
+           
+             <img src={snack.image} alt="" className="column-2 s-img"/>
+
+              <div className="s-card column-2">
+            <h2>{snack.name}</h2>
             <p>Protein: {snack.protein}g</p>
             <p>Fiber: {snack.fiber}g</p>
             <p>Added Sugar: {snack.added_sugar}g</p>
-
+          
             <div>
 
                 <div className="marg-r btns">
@@ -45,7 +50,7 @@ export default function ShowPage(){
        </div>
        
         </div>
-
+  </div>
         
 </div>
     ): null}

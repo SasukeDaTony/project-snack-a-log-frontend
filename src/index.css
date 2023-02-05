@@ -6,6 +6,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
   font-family: "Lato";
+  background-image: url("https://www.tastingtable.com/img/gallery/25-most-popular-snacks-in-america-ranked-worst-to-best/l-intro-1645492743.jpg");
+  background-size:cover;
 }
 
 code {
@@ -29,6 +31,9 @@ code {
 nav{
   display: grid;
   grid-template-columns: repeat(8,1fr);
+  color:lightsalmon;
+  background-color: black;
+  
  
 
 }
@@ -69,19 +74,28 @@ nav{
   padding:20px 15px;
   border: 1px solid black;
   margin-right: 50px;
+  background-color: tan;
+  opacity: 85%;
  
 }
 .submit{
   margin-top: 7px;
 }
 .card{
-  border: 1px solid black;
+  border: 1px solid tan;
   text-align: center;
   width:70%;
   border-radius: 5px;
+  background-color: tan;
+  opacity: 85%;
 }
 .show-page{
   text-align:center;
+  display:grid;
+  grid-template-columns: 20% 60% 20%;
+  align-self: center;
+  row-gap: 15px;
+
   
 }
 .edit-grid{
@@ -116,7 +130,7 @@ nav{
   height:20px;
 }
 .logo{
-  font-size: 30px;
+  font-size: 40px;
   margin-left: 10px;
 }
 .flex{
@@ -130,4 +144,41 @@ nav{
   border-radius:6px;
   padding:3px;
   border-color: lightgray;
+}
+.light-salmon{
+  color:salmon;
+  font-size:medium;
+
+}
+.footer{
+  background-color: tan;
+  opacity:85%;
+  width:fit-content;
+  color: red;
+  font-size: 14px;
+
+}
+
+.white{
+  color:white;
+}
+.s-card{
+  background-color: tan;
+  opacity: 85%;
+  color:red;
+  width:70%;
+  padding-bottom: 10px;
+  border: 3px solid salmon;
+
+}
+.s-img{
+align-self: center;
+margin-left: 20%;
+height: 300px;
+width: 300px;
+border: 2px solid salmon;
+}
+
+.neg-mtop{
+  margin-top: -10px;
 }

@@ -22,7 +22,7 @@ function handleSubmit(e){
 
 return (<div className="new-grid">
 
-    <h1 className="form-heading">Enter a New Snack</h1>
+    <h1 className="form-heading white">Enter a New Snack</h1>
     <div className="form-data column-2">
 
     <div className="form-div">
