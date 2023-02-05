@@ -6,6 +6,7 @@ import IndexPage from './Components/IndexPage';
 import ShowPage from './Components/ShowPage';
 import NewPage from './Components/NewPage';
 import EditPage from './Components/EditPage';
+import About from './Components/About';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/snacks/:id" element={<ShowPage/>}/>
         <Route path="/new-snack" element={<NewPage/>}/>
         <Route path="/snacks/:id/edit" element={<EditPage/>}/>
+        <Route path="/about" element={<About/>}/>
       </Routes>
     </Router>
   );
